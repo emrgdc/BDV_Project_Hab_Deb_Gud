@@ -1,0 +1,1 @@
+docker run -p 8088:8088 -p 9870:9870 -p 10000:10000 --name sparkProjectHdfs -v "YOUR_PATH/data:/data" -it 2ero/hadoop-tez-hive-base 
