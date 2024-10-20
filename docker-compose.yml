@@ -1,0 +1,10 @@
+version: '3'
+services:
+  spark:
+    image: jupyter/pyspark-notebook
+    container_name: bdv_project_spark
+    ports:
+      - "8888:8888"
+      - "4040:4040"
+    volumes:
+      - ./archive:/home/jovyan/work
